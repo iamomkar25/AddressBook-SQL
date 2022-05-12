@@ -1,6 +1,8 @@
------- UC 8: Ability to retrieve entries sorted alphabetically ------
+------ UC 9: Identify each Address Book with name andType ------
 
-select *
-from Address_Book_Tables1
-where City='Devrukh'
-order by(FirstName)
+update Address_Book_Tables1
+set AddressBookName='FriendName',Type='Friends'
+where FirstName='omkar or FirstName='bunty'
+
+
+
