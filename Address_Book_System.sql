@@ -1,8 +1,7 @@
------- UC 9: Identify each Address Book with name andType ------
+select Count(*) as NumberOfContacts,Type
+from Address_Book_Tables1
+Group by Type
 
 update Address_Book_Tables1
-set AddressBookName='FriendName',Type='Friends'
-where FirstName='omkar or FirstName='bunty'
-
-
-
+set AddressBookName='Mom',Type='Family'
+where FirstName='omkar'
