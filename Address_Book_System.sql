@@ -1,5 +1,4 @@
------- UC 5: Ability to Delete Contact Person Based on their Name ------
-delete 
+select * 
 from Address_Book_Tables1
-where FirstName='bunty' and SecondName='shinde'
+where City='Devrukh' or State='Ratnagiri'
 Select * from Address_Book_Tables1;
